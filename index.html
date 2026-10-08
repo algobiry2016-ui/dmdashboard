@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أنظمة دوكمنتيشن</title>
+<style>
+:root{--bg:#f4f6f9;--card:#fff;--ink:#1f2a3c;--mute:#6b7788;--brand:#1F3864;--line:#e3e8ef}
+@media (prefers-color-scheme:dark){:root{--bg:#10151d;--card:#1a212c;--ink:#e8edf4;--mute:#97a3b4;--brand:#8fb0ee;--line:#2a3340}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Segoe UI",Tahoma,Arial,sans-serif}
+header{padding:28px 16px 8px;max-width:960px;margin:auto}
+h1{margin:0;font-size:24px;color:var(--brand)}
+header p{margin:6px 0 0;color:var(--mute);font-size:14px}
+main{max-width:960px;margin:auto;padding:8px 16px 40px}
+h2{font-size:15px;color:var(--mute);margin:26px 0 10px;font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+a.card{display:block;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 16px;text-decoration:none;color:inherit;transition:.15s}
+a.card:hover{transform:translateY(-2px);border-color:var(--brand);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.ic{font-size:28px}
+.t{font-weight:700;margin-top:8px}
+.d{font-size:12.5px;color:var(--mute);margin-top:4px;line-height:1.5}
+a.card.soon{opacity:.55;pointer-events:none}
+.badge{display:inline-block;font-size:11px;background:var(--line);border-radius:20px;padding:2px 8px;margin-top:8px}
+@media (max-width:600px){.grid{grid-template-columns:1fr 1fr;gap:10px}a.card{padding:14px 12px}.t{font-size:14px}.d{font-size:11.5px}h1{font-size:21px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>أنظمة دوكمنتيشن</h1>
+  <p>اضغط على النظام لفتحه. كل نظام له تسجيل دخول خاص به.</p>
+</header>
+<main>
+  <h2>الموارد البشرية</h2>
+  <div class="grid">
+    <a class="card" href="https://hilarious-lebkuchen-9c69cf.netlify.app" target="_blank" rel="noopener"><div class="ic">🧑‍💼</div><div class="t">إدارة الموارد البشرية</div><div class="d">لوحة الإدارة: الحضور، الإجازات، الجزاءات، الرواتب</div></a>
+    <a class="card" href="https://golden-belekoy-fa3312.netlify.app" target="_blank" rel="noopener"><div class="ic">🕒</div><div class="t">حضور الموظفين</div><div class="d">بوابة الموظف: تسجيل الدخول والخروج</div></a>
+  </div>
+
+  <h2>المشتريات والمخزون</h2>
+  <div class="grid">
+    <a class="card" href="https://algobiry2016-ui.github.io/purchase-system/" target="_blank" rel="noopener"><div class="ic">🧾</div><div class="t">نظام المشتريات</div><div class="d">فواتير الموردين والتقارير</div></a>
+    <a class="card" href="https://algobiry2016-ui.github.io/general-inventory/" target="_blank" rel="noopener"><div class="ic">📦</div><div class="t">نظام المخزون</div><div class="d">الكميات حسب الفرع</div></a>
+    <a class="card" href="https://algobiry2016-ui.github.io/flower-inventory/" target="_blank" rel="noopener"><div class="ic">🌸</div><div class="t">مخزون الثلاجة</div><div class="d">حركة الورد والتالف والتقارير</div></a>
+    <a class="card" href="https://algobiry2016-ui.github.io/chocolate-inventory/" target="_blank" rel="noopener"><div class="ic">🍫</div><div class="t">مخزون الشوكولاتة</div><div class="d">الرصيد والصرف بالوزن</div></a>
+  </div>
+
+  <h2>المبيعات والتوصيل</h2>
+  <div class="grid">
+    <a class="card" href="https://algobiry2016-ui.github.io/whatsapp-system/" target="_blank" rel="noopener"><div class="ic">💬</div><div class="t">مبيعات الواتس</div><div class="d">الطلبات وخدمة العملاء والشكاوى</div></a>
+    <a class="card" href="https://algobiry2016-ui.github.io/delivery-rep-system/" target="_blank" rel="noopener"><div class="ic">🛵</div><div class="t">مناديب التوصيل</div><div class="d">الطلبات المسلّمة وأجور المناديب</div></a>
+    <a class="card" href="https://shop-sales-alpha.vercel.app/sale" target="_blank" rel="noopener"><div class="ic">🏪</div><div class="t">مبيعات المحل</div><div class="d">مبيعات المحل اليومية</div></a>
+  </div>
+</main>
+</body>
+</html>
